@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Milmax Industrial Chemicals – Full Catalogue</title>
+  <meta name="description" content="Milmax Industrial Chemicals – dependable supply of industrial and specialty chemicals, solvents, reagents and technical support." />
+  <meta name="theme-color" content="#0b2f6b" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%230b2f6b'/%3E%3Cpath d='M50 20a30 30 0 1030 30A30 30 0 0050 20zm0 8a22 22 0 11-22 22A22 22 0 0150 28z' fill='%23a7d8ff'/%3E%3C/svg%3E" />
+  <style>
+    :root{
+      --bg-deep:#071a3c;--bg:#0b2f6b;--bg-soft:#11408c;
+      --ink:#eaf6ff;--ink-soft:#c9e7ff;--brand:#5cc8ff;--brand-2:#9be7ff;
+      --card:#0e2452;--ring:#77d0ff;--radius:18px;--shadow:0 8px 30px rgba(0,0,0,.25);
+    }
+    *{box-sizing:border-box} html,body{height:100%} body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,Helvetica,Arial;color:var(--ink);background:linear-gradient(160deg,var(--bg-deep),var(--bg));-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+    a{color:inherit}
+    header{position:sticky;top:0;z-index:1000;background:rgba(6,18,45,.7);backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,.08)}
+    .nav{max-width:1200px;margin:auto;display:flex;gap:16px;align-items:center;justify-content:space-between;padding:12px 20px}
+    .brand{display:flex;gap:12px;align-items:center;text-decoration:none}
+    .brand .logo{width:38px;height:38px;border-radius:50%;background:radial-gradient(circle at 30% 30%,var(--brand-2),var(--brand));display:grid;place-items:center;box-shadow:var(--shadow)}
+    nav a{text-decoration:none;opacity:.9;padding:10px 12px;border-radius:12px}
+    nav a:hover,nav a.active{background:rgba(167,216,255,.12);opacity:1}
+    .cta-btn{background:linear-gradient(145deg,var(--brand),var(--brand-2));color:#062140;border:0;padding:10px 16px;border-radius:14px;font-weight:700;box-shadow:0 8px 22px rgba(124,219,255,.25);text-decoration:none}
+
+    section.container{max-width:1200px;margin:48px auto;background:linear-gradient(120deg,rgba(14,36,82,0.92) 80%,rgba(167,216,255,0.08));border-radius:var(--radius);box-shadow:0 8px 32px rgba(0,0,0,.18);border:1px solid rgba(255,255,255,.10);padding:64px 20px;display:none;}
+    section.container.active{display:block;}
+    .section-title{font-size: clamp(22px, 3vw, 34px);margin:0 0 18px}
+    .muted{color:var(--ink-soft);opacity:.95}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+    .card{grid-column:span 4;background:linear-gradient(160deg,var(--card),rgba(14,36,82,.6));border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+
+    /* Catalogue layout */
+    .catalogue-wrap{display:grid;grid-template-columns:260px 1fr;gap:20px}
+    .sidebar{position:sticky;top:84px;height:calc(100vh - 100px);overflow:auto;padding:16px;background:rgba(14,36,82,.5);border:1px solid rgba(255,255,255,.1);border-radius:14px}
+    .sidebar a{display:block;padding:10px 12px;border-radius:10px;text-decoration:none;color:var(--ink);font-size:14px;margin-bottom:6px}
+    .sidebar a:hover{background:rgba(167,216,255,.12)}
+    .filter{display:flex;gap:10px;margin-bottom:14px}
+    .filter input{flex:1;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.18);background:rgba(0,0,0,.2);color:var(--ink)}
+
+    /* Details */
+    details{background:rgba(255,255,255,.03);padding:14px 18px;margin-bottom:14px;border-radius:var(--radius);border:1px solid rgba(255,255,255,.12)}
+    details[open] summary{color:var(--brand)}
+    summary{font-weight:700;cursor:pointer;list-style:none;margin-bottom:8px;display:flex;align-items:center;gap:8px}
+    .ico{width:24px;text-align:center;opacity:.9}
+    details ul{margin:0;padding-left:22px;color:#d7ecff;font-size:14px}
+    details ul li{margin-bottom:4px}
+
+    @media (max-width: 960px){ .catalogue-wrap{grid-template-columns:1fr} .sidebar{position:static;height:auto} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav" role="navigation" aria-label="Main">
+      <a class="brand" href="#top" aria-label="Milmax Home">
+        <div class="logo" aria-hidden="true">🔬</div>
+        <div>
+          <b>Milmax</b><div style="font-size:12px;opacity:.85">Industrial Chemicals</div>
+        </div>
+      </a>
+      <nav>
+        <a href="#about" class="active">About</a>
+        <a href="#products">Products</a>
+        <a href="#industries">Industries</a>
+        <a href="#quality">Quality &amp; MSDS</a>
+        <a href="#contact" class="pill">Contact</a>
+      </nav>
+      <a class="cta-btn" href="#contact">Request Quote</a>
+    </div>
+  </header>
+
+  <section id="about" class="container active">
+    <h2 class="section-title">About Us</h2>
+    <p class="muted">Milmax Industrial Chemicals supplies dependable chemicals and reagents for manufacturing, laboratories, utilities, and food &amp; beverage processors. We focus on quality, fast fulfillment, and practical technical support.</p>
+    <div class="grid">
+      <article class="card"><h3>Quality &amp; Traceability</h3><p>Every lot is traceable and shipped with compliant labeling. COA and MSDS are available on request.</p></article>
+      <article class="card"><h3>Flexible Packaging</h3><p>From 500 mL lab bottles to 25 L jerrycans and 200 L drums, select packaging that matches your process.</p></article>
+      <article class="card"><h3>Local Support</h3><p>Pre‑sale guidance, safe‑handling advice, and dosing recommendations from our technical team.</p></article>
+    </div>
+  </section>
+
+  <section id="products" class="container">
+    <h2 class="section-title">Product Catalogue</h2>
+    <p class="muted">Search or browse our complete catalogue extracted from your PDF. Click a category to expand. Click "View Catalogue" to see details for each category.</p>
+    <div class="catalogue-wrap">
+      <aside class="sidebar" id="toc"></aside>
+      <div>
+        <div class="filter">
+          <input id="prodSearch" placeholder="Search products… (e.g., hypochlorite, RO, detergent)" aria-label="Search products"/>
+        </div>
+        <!-- Add a View Catalogue button for each details section -->
+        <details class="general-detergents" data-title="general detergents">
+          <summary><span class="ico">🧴</span>General Detergents</summary>
+          <ul>
+            <li>Maxclean - multipurpose soap</li>
+            <li>Hand care- Hand wash soap and disinfectant</li>
+            <li>Milsan -Hand sanitizer</li>
+            <li>Maxcare -Toilet cleaner</li>
+            <li>Milcare -Hand degreaser</li>
+            <li>Milpure - Handcare</li>
+            <li>Max-Pro-heavy -duty degreaser</li>
+            <li>Supermax - tough tea stain remover</li>
+            <li>Maxdish – Dish washing detergent</li>
+            <li>Maxclear – cash wash soap</li>
+            <li>Floormax -Tile cleaner</li>
+            <li>Clean -Max- conveyor cleaner</li>
+            <li>Milmax 100 - unblocking of sinks</li>
+            <li>Floor -polish - general floor polish</li>
+            <li>Floor -rust- Rust remover</li>
+            <li>Mil shower gel -Shower gel</li>
+            <li>Milmax shampoo - Hair shampoo</li>
+          </ul>
+          <button class="btn view-cat" data-page="1">View Catalogue</button>
+        </details>
+        <details class="sanitizers-and-disnifectants" data-title="sanitizers and disnifectants">
+          <summary><span class="ico">🧼</span>Sanitizers And Disnifectants</summary>
+          <ul>
+            <li>Milsan - hand sanitizer</li>
+            <li>Maxsan - General surface disinfectant</li>
+            <li>Milbath -Foot bath</li>
+            <li>Sterimax - Machine sanitizer</li>
+            <li>San max - sanitizing detergent in food industry</li>
+            <li>Milchlor -10- Sodium hypochlorite liquid</li>
+            <li>Maxcare D - Toilet disinfectant Kerol based</li>
+            <li>Milsafe -surface disinfectant</li>
+            <li>Milmax SP - surgical spirit</li>
+            <li>Methylated spirit 70% - Disinfectant</li>
+            <li>Methylated spirit 80% -food warmer</li>
+            <li>Methylated gel - Food warmer</li>
+          </ul>
+          <button class="btn view-cat" data-page="2">View Catalogue</button>
+        </details>
+
+        <details class="laudry-detergents" data-title="laudry detergents">
+          <summary><span class="ico">👕</span>Laudry Detergents</summary>
+          <ul>
+            <li>Max-Booster -Laundry booster</li>
+            <li>Max- break - Laundry liquid soap</li>
+            <li>Mil soft – Fabric softener</li>
+            <li>Maxlinen -machine washing powder</li>
+            <li>Milspot - spot remover</li>
+            <li>Mildrex 100 -water softener and</li>
+            <li>conditioner</li>
+            <li>Mildrex 200 -mould -stain remover and</li>
+            <li>disinfectant</li>
+            <li>Mildrex 300 -oxygen based bleach</li>
+            <li>Mildrex 400 - Heavy alkaline booster</li>
+            <li>with conditioning polymer</li>
+          </ul>
+          <button class="btn view-cat" data-page="3">View Catalogue</button>
+        </details>
+
+        <details class="cip-chemicals" data-title="cip chemicals">
+          <summary><span class="ico">⚗️</span>Cip Chemicals</summary>
+          <ul>
+            <li>Maxclean 30 - caustic soda solution</li>
+            <li>30%</li>
+            <li>Maxclean 50 - Alkaline cip cleaner</li>
+            <li>Max-Acid - acid cip cleaner</li>
+            <li>Maxclean Plus - chlorinated CIP</li>
+            <li>cleaner</li>
+            <li>Sodium hydroxide 12% sln - PH</li>
+            <li>adjuster in cosmetic industries</li>
+            <li>Potassium hydroxide 50% sln</li>
+            <li>Max acids100 - sulphamic based</li>
+            <li>discallant</li>
+          </ul>
+          <button class="btn view-cat" data-page="4">View Catalogue</button>
+        </details>
+
+        <details class="specialty-cleaners" data-title="specialty cleaners">
+          <summary><span class="ico">🔬</span>Specialty Cleaners</summary>
+          <ul>
+            <li>PH minus - PH adjuster</li>
+            <li>Max-lube- chain lubricant</li>
+            <li>Max- lube D - soap based chain</li>
+            <li>lubricant</li>
+            <li>Max -Solve - powder rust powder</li>
+          </ul>
+          <button class="btn view-cat" data-page="5">View Catalogue</button>
+        </details>
+
+        <details class="ro-chemicals" data-title="ro chemicals">
+          <summary><span class="ico">💧</span>Ro Chemicals</summary>
+          <ul>
+            <li>RO Clean 100 - Ro acid cleaner</li>
+            <li>RO cleaner 200 - RO alkaline cleaner</li>
+            <li>RO 300 - phosphate based antiscalant</li>
+            <li>Ro-Antichlomax - SMBS based</li>
+            <li>sanitizer</li>
+            <li>Max -hyper 400- general purpose</li>
+            <li>antisclant</li>
+            <li>Max -hyper 500- An effective anti</li>
+            <li>scalant and antifoulant which is</li>
+            <li>specifically formulated to combat</li>
+            <li>silica scale</li>
+            <li>Sterimax - Machine sanitizer</li>
+          </ul>
+          <button class="btn view-cat" data-page="6">View Catalogue</button>
+        </details>
+
+        <details class="boiler-chemicals" data-title="boiler chemicals">
+          <summary><span class="ico">🔥</span>Boiler Chemicals</summary>
+          <ul>
+            <li>MAXTREAT - Tannis multifunctional</li>
+            <li>boiler chemical</li>
+            <li>BMAX 5P- phosphate based sludge</li>
+            <li>conditioner</li>
+            <li>BMAX 3P - phosphonate based sludge</li>
+            <li>conditioner</li>
+            <li>MIL- booster -PH adjuster</li>
+            <li>TANN -MAX - Tannins based oxygen</li>
+            <li>scavenger</li>
+            <li>MAX -TREAT -SM- sulphite based</li>
+            <li>multifunctional boiler chemical</li>
+            <li>MAX -TREAT -SM2 - Sulphite based</li>
+            <li>multifunctional boiler chemical</li>
+          </ul>
+          <button class="btn view-cat" data-page="7">View Catalogue</button>
+        </details>
+
+        <details class="for-cooling--tower-s" data-title="for cooling  tower s">
+          <summary><span class="ico">❄️</span>For Cooling  Tower S</summary>
+          <ul>
+            <li>Maxbac - primary biocide based on THPS</li>
+            <li>Milbiocide - Secondary biocide based o n</li>
+            <li>isothiazolinones</li>
+            <li>Milmax -BR- antiscalant and a corrosion</li>
+            <li>inhibitor</li>
+          </ul>
+          <button class="btn view-cat" data-page="8">View Catalogue</button>
+        </details>
+
+        <details class="acids" data-title="acids">
+          <summary><span class="ico">⚛️</span>Acids</summary>
+          <ul>
+            <li>Citric acid anhydrous</li>
+            <li>Glacial acetic acid</li>
+            <li>Phosphoric acid 85%</li>
+            <li>Hydrochloric acid 33%</li>
+            <li>Sulphuric acid</li>
+            <li>Nitric acid 68%</li>
+            <li>Sulphamic acid</li>
+            <li>Oxalic acid</li>
+          </ul>
+          <button class="btn view-cat" data-page="9">View Catalogue</button>
+        </details>
+
+        <details class="alkalis" data-title="alkalis">
+          <summary><span class="ico">🧪</span>Alkalis</summary>
+          <ul>
+            <li>Caustic soda flakes 98%</li>
+            <li>Caustic soda pearls 99%</li>
+            <li>Potassium hydroxide 90%</li>
+            <li>Calcium hydroxide</li>
+            <li>Calcium chloride</li>
+          </ul>
+          <button class="btn view-cat" data-page="10">View Catalogue</button>
+        </details>
+
+        <details class="salts" data-title="salts">
+          <summary><span class="ico">🧂</span>Salts</summary>
+          <ul>
+            <li>Sodium Hexametaphosphate</li>
+            <li>Sodium Tri -poly Phosphat e</li>
+            <li>Ferric chloride</li>
+            <li>Sodium Metasilicate</li>
+            <li>Sodium Bicarbonate</li>
+            <li>Ammonium Bifluoride</li>
+            <li>Tri-Sodium Phosphate</li>
+            <li>Sodium metabisulphite</li>
+            <li>Urea</li>
+            <li>Industrial salt</li>
+            <li>Sodium sulphate</li>
+            <li>Borax</li>
+            <li>Sodium carbonate ( Soda ash Light)</li>
+            <li>EDTA 4Na</li>
+            <li>EDTA 2Na</li>
+            <li>Polly Aluminium Chloride (PAC)</li>
+            <li>Aluminium sulphate</li>
+          </ul>
+          <button class="btn view-cat" data-page="11">View Catalogue</button>
+        </details>
+
+        <details class="alcohols" data-title="alcohols">
+          <summary><span class="ico">🍶</span>Alcohols</summary>
+          <ul>
+            <li>Ethanol 96%</li>
+            <li>Butyl Glycol</li>
+            <li>Mono Ethylene Glycol</li>
+            <li>IPA (Isoprop yl Alcohol)</li>
+            <li>Methyl Ethyl Ketone</li>
+            <li>Mono Propyl Glycol</li>
+            <li>Methano 99%</li>
+          </ul>
+          <button class="btn view-cat" data-page="12">View Catalogue</button>
+        </details>
+
+        <details class="surfactants" data-title="surfactants">
+          <summary><span class="ico">🌊</span>Surfactants</summary>
+          <ul>
+            <li>Ufacid (Sulphonic acid) 90%/96%</li>
+            <li>Ungarol 70%</li>
+            <li>NP9 (Marlophen)</li>
+            <li>Glycerine 99%</li>
+            <li>Ufablend</li>
+            <li>Pine oil</li>
+          </ul>
+          <button class="btn view-cat" data-page="13">View Catalogue</button>
+        </details>
+
+        <details class="oxidzing-agents" data-title="oxidzing agents">
+          <summary><span class="ico">☣️</span>Oxidzing Agents</summary>
+          <ul>
+            <li>Hydrogen Peroxide 35%</li>
+            <li>Hydrogen Peroxide 50%</li>
+            <li>TCCA (Chlorine 90%)</li>
+            <li>Calcium hypochlorite 65%</li>
+            <li>Calcium hypochlorite 70%</li>
+          </ul>
+          <button class="btn view-cat" data-page="14">View Catalogue</button>
+        </details>
+
+        <details class="biocides" data-title="biocides">
+          <summary><span class="ico">🧫</span>Biocides</summary>
+          <ul>
+            <li>BAC 50% Benzalkonium chloride 50%)</li>
+            <li>Glutaraldehyde 50%</li>
+            <li>Sodium De thiocarbamate</li>
+          </ul>
+          <button class="btn view-cat" data-page="15">View Catalogue</button>
+        </details>
+
+        <details class="textile" data-title="textile">
+          <summary><span class="ico">🧵</span>Textile</summary>
+          <ul>
+            <li>Caustic soda flakes 98%</li>
+            <li>Caustic soda pearls 99%</li>
+            <li>Glacial acetic acid</li>
+            <li>Hydrogen peroxide 50%</li>
+          </ul>
+          <button class="btn view-cat" data-page="16">View Catalogue</button>
+        </details>
+
+        <details class="leather-tanning" data-title="leather/tanning">
+          <summary><span class="ico">👞</span>Leather/Tanning</summary>
+          <ul>
+            <li>Aceton</li>
+            <li>Butyl glyco l</li>
+            <li>Caustic soda flakes</li>
+            <li>Glacial acetic acid</li>
+            <li>Hydrochloric acid 33%</li>
+            <li>Hydrogen peroxide 50%</li>
+            <li>Hydrated lime -Nilkanth</li>
+          </ul>
+          <button class="btn view-cat" data-page="17">View Catalogue</button>
+        </details>
+
+        <details class="fragrances" data-title="fragrances">
+          <summary><span class="ico">🌸</span>Fragrances</summary>
+          <ul>
+            <li>Lavender</li>
+            <li>Lemon</li>
+            <li>Carnation</li>
+            <li>Orange</li>
+          </ul>
+          <button class="btn view-cat" data-page="18">View Catalogue</button>
+        </details>
+
+        <details class="colours" data-title="colours">
+          <summary><span class="ico">🎨</span>Colours</summary>
+          <ul>
+            <li>Green colour</li>
+            <li>Blue colour</li>
+            <li>Yellow colour</li>
+            <li>Sunset yellow</li>
+            <li>Pink colour</li>
+            <li>Red colour</li>
+          </ul>
+          <button class="btn view-cat" data-page="19">View Catalogue</button>
+        </details>
+
+        <details class="installation-of" data-title="installation of">
+          <summary><span class="ico">🛠️</span>Installation Of</summary>
+          <ul>
+            <li>Reverse osmosis plants</li>
+            <li>Lagging and cladding</li>
+            <li>Water softeners and filtration plants</li>
+          </ul>
+          <button class="btn view-cat" data-page="20">View Catalogue</button>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="industries" class="container">
+    <h2 class="section-title">Industries We Serve</h2>
+    <div class="grid">
+      <article class="card" style="grid-column:span 6">
+        <h3>Water &amp; Wastewater</h3>
+        <p>Disinfection (NaOCl), coagulation aids, pH control (HCl, NaOH), and odor management solutions.</p>
+      </article>
+      <article class="card" style="grid-column:span 6">
+        <h3>Food &amp; Beverage</h3>
+        <p>Food‑grade sanitation chemistries and additives with documentation support for audits.</p>
+      </article>
+      <article class="card" style="grid-column:span 6">
+        <h3>Manufacturing</h3>
+        <p>Process chemicals, solvents, and cleaning agents to maintain quality and uptime.</p>
+      </article>
+      <article class="card" style="grid-column:span 6">
+        <h3>Labs &amp; Education</h3>
+        <p>Reagents and consumables sized for teaching labs, QA/QC, and R&amp;D environments.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="quality" class="container">
+    <h2 class="section-title">Quality &amp; Documentation</h2>
+    <div class="grid" style="grid-template-columns:1fr 1fr">
+      <div class="card">
+        <h3>Safety First</h3>
+        <p class="muted">We provide Material Safety Data Sheets (MSDS) and Certificates of Analysis (COA) for traceable lots. Use PPE and follow storage &amp; handling guidance.</p>
+        <p class="note">Need an MSDS now? Pick a product and we’ll email you the latest sheet.</p>
+        <div class="row">
+          <select id="msdsProduct" aria-label="Select product for MSDS">
+            <option value="">Select product…</option>
+            <option>Sodium Hypochlorite</option>
+            <option>Hydrochloric Acid</option>
+            <option>Ethanol</option>
+            <option>Sodium Hydroxide</option>
+            <option>Acetone</option>
+          </select>
+          <button id="btnMsds" class="btn">Request MSDS</button>
+        </div>
+        <p id="msdsMsg" class="help" role="status" aria-live="polite"></p>
+      </div>
+      <div class="card">
+        <h3>Compliance</h3>
+        <ul style="margin:0; padding-left:18px; color:#d7ecff">
+          <li>Labels aligned to GHS</li>
+          <li>Lot traceability &amp; COA</li>
+          <li>Temperature &amp; segregation guidance</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2 class="section-title">Request a Quote</h2>
+    <p class="muted">Tell us what you need and we’ll get right back to you.</p>
+    <form id="quoteForm" novalidate>
+      <div class="row">
+        <div>
+          <label for="name" class="help">Your name</label>
+          <input id="name" name="name" required placeholder="Jane Doe" />
+        </div>
+        <div>
+          <label for="email" class="help">Email</label>
+          <input id="email" name="email" type="email" required placeholder="you@example.com" />
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="phone" class="help">Phone</label>
+          <input id="phone" name="phone" inputmode="tel" placeholder="+254 7xx xxx xxx" />
+        </div>
+        <div>
+          <label for="company" class="help">Company (optional)</label>
+          <input id="company" name="company" placeholder="Your company" />
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="product" class="help">Product</label>
+          <input id="product" name="product" required placeholder="e.g., Sodium Hypochlorite 15%" />
+        </div>
+        <div>
+          <label for="pack" class="help">Pack size</label>
+          <select id="pack" name="pack">
+            <option value="">Select…</option>
+            <option>500 mL</option>
+            <option>1 L</option>
+            <option>5 L</option>
+            <option>25 L</option>
+            <option>200 L</option>
+          </select>
+        </div>
+      </div>
+      <div>
+        <label for="notes" class="help">Notes</label>
+        <textarea id="notes" name="notes" rows="4" placeholder="Delivery location, purity, grade, repeat schedule, etc."></textarea>
+      </div>
+      <div style="display:flex; gap:12px; align-items:center">
+        <button class="btn" id="submitBtn" type="submit">Send Request</button>
+        <span id="formStatus" class="help" role="status" aria-live="polite"></span>
+      </div>
+    </form>
+  </section>
+
+  <footer style="border-top:1px solid rgba(255,255,255,.08);background:rgba(6,18,45,.6);padding:24px">
+    <div class="foot" style="max-width:1200px;margin:auto;display:grid;gap:14px;align-items:center;grid-template-columns:1fr auto">
+      <div>
+        <div style="font-weight:700">Milmax Industrial Chemicals</div>
+        <div style="font-size:13px;color:#cde8ff">© <span id="yr"></span> Milmax. All rights reserved.</div>
+      </div>
+      <div class="muted">Safety first • Handle with care • Dispose responsibly</div>
+    </div>
+  </footer>
+
+  <div id="catModal" class="hide" style="position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(6,18,45,.85);z-index:9999;display:none;align-items:center;justify-content:center;">
+    <div style="background:#0e2452;padding:24px;border-radius:18px;max-width:900px;width:90vw;max-height:90vh;box-shadow:var(--shadow);position:relative;">
+      <button id="closeCat" class="btn" style="position:absolute;top:12px;right:12px;">Close</button>
+      <div id="catViewer" style="width:100%;height:70vh;">
+        <!-- PDF will be embedded here -->
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="hide" role="status" aria-live="polite" style="position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:rgba(6,18,45,.9);border:1px solid rgba(255,255,255,.18);padding:12px 16px;border-radius:12px;box-shadow:var(--shadow)"></div>
+
+  <script>
+    // Section switcher
+    const navLinks = document.querySelectorAll('nav a');
+    const sections = document.querySelectorAll('section.container');
+    function showSection(id) {
+      sections.forEach(sec => sec.classList.toggle('active', sec.id === id));
+      navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + id));
+    }
+    navLinks.forEach(link => link.addEventListener('click', e => {
+      e.preventDefault();
+      const targetId = link.getAttribute('href').replace('#','');
+      showSection(targetId);
+      window.location.hash = targetId;
+    }));
+    window.addEventListener('DOMContentLoaded', () => {
+      const hash = window.location.hash.replace('#','');
+      if(hash && document.getElementById(hash)) showSection(hash);
+    });
+    document.getElementById('yr').textContent = new Date().getFullYear();
+
+    // Build TOC
+    const toc = document.getElementById('toc');
+    const details = Array.from(document.querySelectorAll('#products details'));
+    details.forEach((d,i)=> d.id = 'cat-' + i);
+    const frag = document.createDocumentFragment();
+    const title = document.createElement('div');
+    title.className = 'muted'; title.style.fontWeight='700'; title.style.marginBottom='8px'; title.textContent='Categories';
+    frag.appendChild(title);
+    details.forEach((d,i)=> {
+      const a = document.createElement('a');
+      const dt = d.getAttribute('data-title') || d.querySelector('summary').textContent.trim();
+      a.href = '#cat-' + i;
+      a.textContent = dt.replace(/\b\w/g, s => s.toUpperCase());
+      a.addEventListener('click', (e)=> { e.preventDefault(); d.open=true; d.scrollIntoView({behavior:'smooth',block:'start'}); });
+      frag.appendChild(a);
+    });
+    toc.appendChild(frag);
+
+    // Search filter
+    const input = document.getElementById('prodSearch');
+    input.addEventListener('input', () => {
+      const q = input.value.toLowerCase().trim();
+      details.forEach(d => {
+        const text = d.innerText.toLowerCase();
+        const hit = !q || text.includes(q);
+        d.style.display = hit ? '' : 'none';
+        if(q && hit) d.open = true;
+      });
+    });
+
+    // Toast helper
+    function showToast(text){
+      const el = document.getElementById('toast');
+      el.textContent = text;
+      el.classList.remove('hide');
+      clearTimeout(window.__toast);
+      window.__toast = setTimeout(() => el.classList.add('hide'), 2200);
+    }
+
+    // Catalogue modal logic
+    const catModal = document.getElementById('catModal');
+    const catViewer = document.getElementById('catViewer');
+    const closeCat = document.getElementById('closeCat');
+    document.querySelectorAll('.view-cat').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const page = btn.getAttribute('data-page');
+        catViewer.innerHTML = `<embed src="catalogue%203-1.pdf#page=${page}" type="application/pdf" width="100%" height="100%" style="border-radius:12px;" />`;
+        catModal.style.display = 'flex';
+        catModal.classList.remove('hide');
+      });
+    });
+    closeCat.addEventListener('click', () => {
+      catModal.style.display = 'none';
+      catModal.classList.add('hide');
+      catViewer.innerHTML = '';
+    });
+    window.addEventListener('keydown', e => {
+      if(catModal.style.display === 'flex' && e.key === 'Escape') {
+        catModal.style.display = 'none';
+        catModal.classList.add('hide');
+        catViewer.innerHTML = '';
+      }
+    });
+  </script>
+</body>
+</html>
