@@ -65,11 +65,34 @@
     details ul{margin:0;padding-left:22px;color:#d7ecff;font-size:14px}
     details ul li{margin-bottom:4px}
 
+    /* Responsive styles */
     @media (max-width: 960px){
       .catalogue-wrap{grid-template-columns:1fr}
-      .sidebar{position:static;height:auto}
-      .company-info{flex-direction:column;align-items:flex-start;}
+      .sidebar{position:static;height:auto;margin-bottom:18px;}
+      .company-info{flex-direction:column;align-items:flex-start;gap:18px;}
       .company-details{max-width:100%;}
+      .grid{grid-template-columns:1fr;}
+      .card{grid-column:span 1;}
+      section.container{padding:32px 8px;}
+      .nav{flex-direction:column;align-items:flex-start;gap:10px;padding:10px 8px;}
+      nav{width:100%;display:flex;flex-wrap:wrap;gap:8px;}
+      .cta-btn{width:100%;margin-top:8px;}
+      .brand .logo{width:40px;height:40px;}
+    }
+    @media (max-width: 600px){
+      .company-info{gap:12px;}
+      .company-details h1{font-size:1.3em;}
+      .section-title{font-size:1.2em;}
+      .nav{padding:8px 4px;}
+      section.container{padding:18px 2vw;}
+      .sidebar{padding:8px;}
+      .card{padding:12px;}
+      .filter input{padding:8px;}
+      details{padding:8px 10px;}
+      .brand .logo{width:32px;height:32px;}
+      .cta-btn{font-size:1em;padding:8px 10px;}
+      .row{flex-direction:column;gap:10px !important;}
+      form#quoteForm{padding:18px 8px;}
     }
   </style>
 </head>
@@ -109,7 +132,7 @@
         </div>
         <div class="company-contact">
           <span>📍 Nairobi, Kenya</span>
-          <span>📞 <a href="tel:+254702253421">+254 702253421</a></span>
+          <span>📞 <a href="tel:+254702253421">+254 722 000000</a></span>
           <span>✉️ <a href="mailto:info@milmax.co.ke">info@milmax.co.ke</a></span>
           <span>🌐 <a href="http://milmax.co.ke" target="_blank">milmax.co.ke</a></span>
         </div>
@@ -576,7 +599,6 @@
     </div>
   </div>
 
- 
   <script>
     // Section switcher
     const navLinks = document.querySelectorAll('nav a');
@@ -689,5 +711,3 @@
   </script>
 </body>
 </html>
-
-
